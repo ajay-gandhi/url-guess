@@ -11,7 +11,7 @@ $ npm install -g url-guess
 ## Use
 
 ```bash
-$ url-guess
+$ url-guess # -h for help
 ```
 
 ## Automatically open
