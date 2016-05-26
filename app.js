@@ -34,15 +34,15 @@ var test_new = function () {
   var next_str = generate_string(len);
 
   http.get(base + next_str, function (res) {
-    if (res.statusCode == 200) {
-      // Success!
-      if (argv.v) console.log(next_str, 'valid:', base + next_str);
-      else        console.log(base + next_str);
-
-    } else {
+    if (res.statusCode == 404) {
       // Try again
       if (argv.v) console.log(next_str, 'failed');
       test_new();
+
+    } else {
+      // Success!
+      if (argv.v) console.log(next_str, 'valid:', base + next_str);
+      else        console.log(base + next_str);
     }
   }).on('error', (e) => {
     console.log('Got error:', e);
