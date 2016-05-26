@@ -4,8 +4,7 @@
   "description": "Finds random short URLs",
   "main": "app.js",
   "dependencies": {
-    "minimist": "^1.2.0",
-    "request-promise": "^3.0.0"
+    "minimist": "^1.2.0"
   },
   "devDependencies": {},
   "scripts": {
