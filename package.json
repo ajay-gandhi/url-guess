@@ -1,0 +1,29 @@
+{
+  "name": "url-guess",
+  "version": "0.0.1",
+  "description": "Finds random short URLs",
+  "main": "app.js",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "request-promise": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "url-guess"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajay-gandhi/url-guess.git"
+  },
+  "keywords": [
+    "url",
+    "shortener",
+    "guess"
+  ],
+  "author": "Ajay Gandhi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajay-gandhi/url-guess/issues"
+  },
+  "homepage": "https://github.com/ajay-gandhi/url-guess#readme"
+}
