@@ -44,7 +44,7 @@ var test_new = function () {
       if (argv.v) console.log(next_str, 'valid:', base + next_str);
       else        console.log(base + next_str);
     }
-  }).on('error', (e) => {
+  }).on('error', function (e) {
     console.log('Got error:', e);
   });
 }
