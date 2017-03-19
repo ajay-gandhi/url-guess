@@ -1,14 +1,17 @@
 {
   "name": "url-guess",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Finds random short URLs",
   "main": "app.js",
+  "bin": {
+    "url-guess": "./app.js"
+  },
   "dependencies": {
     "minimist": "^1.2.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "url-guess"
+    "test": "node app.js"
   },
   "repository": {
     "type": "git",
